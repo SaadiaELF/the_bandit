@@ -48,7 +48,6 @@ Find file with properties (human-readable, 1033 bytes in size, not executable) a
 
 Commands used : 
 ```
-cd inhere
 find ~ -type f -size  1033c ! -executable -exec cat {} \;
  ```
 
@@ -57,6 +56,13 @@ Find file with properties (owned by user bandit7, owned by group bandit6, 33 byt
 
 Commands used : 
 ```
-cd inhere
 find /  -type f -user bandit7 -group bandit6 -size 33c -exec cat {} \;
+ ```
+
+## Level 7 to level 8
+Search for matching patterns in a file
+
+Commands used : 
+```
+grep "millionth" data.txt 
  ```
