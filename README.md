@@ -17,3 +17,8 @@ Command used : `cat readme`
 Displays the contents of a file with dashed name 
 
 Command used : `cat ./-`
+
+## Level 2 to level 3
+Displays the contents of a file with spaces in filename
+
+Command used : `cat "spaces in this filename"`
