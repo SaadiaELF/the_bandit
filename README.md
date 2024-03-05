@@ -22,3 +22,13 @@ Command used : `cat ./-`
 Displays the contents of a file with spaces in filename
 
 Command used : `cat "spaces in this filename"`
+
+## Level 3 to level 4
+Displays the contents of a hidden file 
+
+Commands used : 
+```
+cd inhere
+ls -a
+cat .hidden
+ ```
