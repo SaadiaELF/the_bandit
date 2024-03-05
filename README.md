@@ -66,3 +66,11 @@ Commands used :
 ```
 grep "millionth" data.txt 
  ```
+
+## Level 8 to level 9
+Search for line of text that occur once
+
+Commands used : 
+```
+sort data.txt | uniq -u
+ ```
