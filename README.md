@@ -42,3 +42,12 @@ cd inhere
 for FILE in *; do file ./$FILE; done
 cat -file07
  ```
+
+  ## Level 5 o level 6
+Find file with properties (human-readable, 1033 bytes in size, not executable) and displays its content 
+
+Commands used : 
+```
+cd inhere
+find ~ -type f -size  1033c ! -executable -exec cat {} \;
+ ```
