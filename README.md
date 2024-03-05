@@ -8,5 +8,6 @@ Connected to the server using command :
 
 `ssh bandit0@bandit.labs.overthewire.org -p 2220`
 
-
-
+## Level 0 to level 1 
+  
+Commands used : `cat readme`
