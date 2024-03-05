@@ -9,9 +9,11 @@ Connected to the server using command :
 `ssh bandit0@bandit.labs.overthewire.org -p 2220`
 
 ## Level 0 to level 1 
-  
-Commands used : `cat readme`
+Displays the contents of a file
+
+Command used : `cat readme`
 
 ## Level 1 to level 2 
-  
-Commands used : `cat ./-`
+Displays the contents of a file with dashed name 
+
+Command used : `cat ./-`
