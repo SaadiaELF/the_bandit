@@ -11,3 +11,7 @@ Connected to the server using command :
 ## Level 0 to level 1 
   
 Commands used : `cat readme`
+
+## Level 1 to level 2 
+  
+Commands used : `cat ./-`
