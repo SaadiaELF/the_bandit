@@ -33,7 +33,7 @@ ls -a
 cat .hidden
  ```
 
- ## Level 4 to level 5
+## Level 4 to level 5
 Find human-readable file and displays its content (ASCII text)
 
 Commands used : 
@@ -43,11 +43,20 @@ for FILE in *; do file ./$FILE; done
 cat -file07
  ```
 
-  ## Level 5 o level 6
+## Level 5 to level 6
 Find file with properties (human-readable, 1033 bytes in size, not executable) and displays its content 
 
 Commands used : 
 ```
 cd inhere
 find ~ -type f -size  1033c ! -executable -exec cat {} \;
+ ```
+
+## Level 6 to level 7
+Find file with properties (owned by user bandit7, owned by group bandit6, 33 bytes in size) and displays its content 
+
+Commands used : 
+```
+cd inhere
+find /  -type f -user bandit7 -group bandit6 -size 33c -exec cat {} \;
  ```
