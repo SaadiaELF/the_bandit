@@ -75,7 +75,7 @@ Commands used :
 sort data.txt | uniq -u
  ```
 
-## Level 8 to level 9
+## Level 9 to level 10
 Search for human-readable strings in a file
 
 Commands used : 
@@ -83,7 +83,7 @@ Commands used :
 strings data.txt
  ```
 
-## Level 8 to level 9
+## Level 10 to level 11
 Decode a file contains a base64 encoded data
 
 Commands used : 
@@ -91,3 +91,10 @@ Commands used :
 base64 -d data.txt
  ```
 
+## Level 11 to level 12
+Decode a file contains a ROT13 encoded data
+
+Commands used : 
+```
+cat data.txt | tr '[A-Za-z]' '[N-ZA-Mn-za-m]'
+ ```
