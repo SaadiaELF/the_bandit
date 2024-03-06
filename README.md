@@ -131,3 +131,9 @@ Connect to the server using a private key.
 ```
 ssh -i sshkey.private bandit14@localhost -p 2220
 ```
+
+## Level 14 to level 15
+Submitting text to network and getting response. 
+```
+echo "fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq" | nc localhost 30000
+```
