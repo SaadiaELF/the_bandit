@@ -125,3 +125,9 @@ Notes :
 |gzip|gunzip|.gz|
 |bzip2|bunzip2|.bz2|
 |tar|tar -xvf|.tar|
+
+## Level 13 to level 14
+Connect to the server using a private key.
+```
+ssh -i sshkey.private bandit14@localhost -p 2220
+```
