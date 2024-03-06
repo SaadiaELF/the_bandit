@@ -143,4 +143,3 @@ Submitting text to specific port using SSL encryption and getting response.
 ```
 echo "level15password"  | openssl s_client -connect localhost:30001 -ign_eof 
 ```
-
