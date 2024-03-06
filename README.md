@@ -98,3 +98,30 @@ Commands used :
 ```
 cat data.txt | tr '[A-Za-z]' '[N-ZA-Mn-za-m]'
  ```
+## Level 12 to level 13
+Reverse a hex dump and decompress it multiple time
+
+Commands used : 
+```
+<!-- Hexdump reversion -->
+xxd -r data.txt reverse
+
+<!-- Check the file type -->
+file reverse
+
+<!-- Change the file extension depending on the output -->
+mv reverse reverse.gz
+
+<!-- Decompress the file -->
+gunzip reverse.gz
+ ```
+
+The file was compressed several times using this compression methods in order : gzip, bzip2 , gzip, tar , tar, bzip2 , tar , gzip
+
+Notes :
+
+|Compression|Decompression command|Extension|
+| :-------- | :------- | :-------- |
+|gzip|gunzip|.gz|
+|bzip2|bunzip2|.bz2|
+|tar|tar -xvf|.tar|
