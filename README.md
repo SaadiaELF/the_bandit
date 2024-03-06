@@ -133,7 +133,13 @@ ssh -i sshkey.private bandit14@localhost -p 2220
 ```
 
 ## Level 14 to level 15
-Submitting text to network and getting response. 
+Submitting text to specific port and getting response. 
 ```
-echo "fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq" | nc localhost 30000
+echo "level14password" | nc localhost 30000
+```
+
+## Level 15 to level 16
+Submitting text to specific port using SSL encryption and getting response. 
+```
+echo "level15password"  | openssl s_client -connect localhost:30001 -ign_eof 
 ```
