@@ -143,3 +143,15 @@ Submitting text to specific port using SSL encryption and getting response.
 ```
 echo "level15password"  | openssl s_client -connect localhost:30001 -ign_eof 
 ```
+
+## Level 16 to level 17
+Scanning a range of ports to find out which of them have a server listening on them.
+
+Submitting text to specific port using SSL encryption and getting response. 
+```
+nmap -p 31000-32000 localhost 
+echo "level16password"  | openssl s_client -connect localhost:30001 -ign_eof
+nano sshkey.private
+chmod 600 sshkey.private 
+ssh -i sshkey.private bandit17@localhost -p 2220
+```
