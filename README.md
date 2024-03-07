@@ -156,3 +156,9 @@ nano sshkey.private
 chmod 600 sshkey.private 
 ssh -i sshkey.private bandit17@localhost -p 2220
 ```
+
+## Level 17 to level 18
+Comparing two files line by line
+```
+diff passwords.new passwords.old
+```
