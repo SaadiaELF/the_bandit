@@ -162,3 +162,9 @@ Comparing two files line by line
 ```
 diff passwords.new passwords.old
 ```
+
+## Level 18 to level 19
+Execute command via ssh without navigate to the directory
+```
+ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme 
+```
