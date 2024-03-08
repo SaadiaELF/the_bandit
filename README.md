@@ -168,3 +168,9 @@ Execute command via ssh without navigate to the directory
 ```
 ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme 
 ```
+
+## Level 19 to level 20
+Use setuid to execute command using owner id.
+```
+./bandit20-do cat /etc/bandit_pass/bandit20
+```
